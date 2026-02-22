@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "content_authenticity_verification_service"
+version = "0.1.0"
+description = "Verify media provenance and authenticity signals for published content."
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
