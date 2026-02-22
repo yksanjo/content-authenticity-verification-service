@@ -1,10 +1,10 @@
-# Content Authenticity Verification Service
+# content-authenticity-verification-service
 
-Verify media provenance and authenticity signals for published content.
+## Detailed Description
 
 ## Vertical
 
-internet
+## Problem Statement
 
 ## Production MVP Deliverables
 
